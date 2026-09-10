@@ -94,7 +94,7 @@ button { font: inherit; }
 .menu-toggle { display: grid; place-items: center; width: 40px; height: 40px; border: 1px solid rgba(243,185,20,.55); color: #f3b914; background: rgba(10,12,14,.72); padding: 8px; }
 
 .hero { position: relative; min-height: 770px; display: flex; align-items: flex-end; background: #08090b; isolation: isolate; }
-.hero-backdrop { position: absolute; inset: 0; z-index: -2; background-image: linear-gradient(90deg, rgba(6,8,10,.98) 2%, rgba(6,8,10,.84) 34%, rgba(6,8,10,.18) 74%, rgba(6,8,10,.42) 100%), linear-gradient(0deg, rgba(6,8,10,.55), transparent 48%), url('/manus-storage/gardenas-hero_a1854cd5.jpg'); background-size: cover; background-position: center; }
+.hero-backdrop { position: absolute; inset: 0; z-index: -2; background-image: linear-gradient(90deg, rgba(6,8,10,.98) 2%, rgba(6,8,10,.84) 34%, rgba(6,8,10,.18) 74%, rgba(6,8,10,.42) 100%), linear-gradient(0deg, rgba(6,8,10,.55), transparent 48%), url('/images/gardenas-hero.jpg'); background-size: cover; background-position: center; }
 .hero-grid { position: absolute; inset: 0; z-index: -1; opacity: .22; background-image: linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px); background-size: 92px 92px; mask-image: linear-gradient(90deg, black, transparent 70%); }
 .hero-content { padding-top: 170px; padding-bottom: 118px; }
 .hero-kicker, .eyebrow { color: #f3b914; font-family: 'DM Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: .19em; }

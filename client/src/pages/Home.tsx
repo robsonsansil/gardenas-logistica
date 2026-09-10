@@ -82,7 +82,7 @@ const principles = [
 function BrandMark({ compact = false }: { compact?: boolean }) {
   return (
     <a className={`brand ${compact ? "brand--compact" : ""}`} href="#top" aria-label="Gardena's Logística, início">
-      <img className="brand-logo" src="/manus-storage/gardenas-logo_bd75971a.png" alt="Gardena's Logística" />
+      <img className="brand-logo" src="/images/gardenas-logo.png" alt="Gardena's Logística" />
     </a>
   );
 }
@@ -204,7 +204,7 @@ export default function Home() {
         <section className="operations section-dark">
           <div className="container operations-grid">
             <div className="operations-visual">
-              <img src="/manus-storage/gardenas-operations_2cdabf7d.jpg" alt="Terminal logístico iluminado ao anoitecer" />
+              <img src="/images/gardenas-operations.jpg" alt="Terminal logístico iluminado ao anoitecer" />
               <div className="visual-tag"><span className="pulse-dot" /> Operação em movimento</div>
               <div className="visual-corner">G'S / 24</div>
             </div>
@@ -355,7 +355,7 @@ export default function Home() {
       </main>
 
       <a className="whatsapp-float" href="https://wa.me/5519996137296" target="_blank" rel="noreferrer" aria-label="Falar com a Gardena's Logística pelo WhatsApp">
-        <img src="/manus-storage/whatsapp-icon_36119052.webp" alt="WhatsApp" />
+        <img src="/images/whatsapp-icon.webp" alt="WhatsApp" />
         <span>Fale conosco</span>
       </a>
 
