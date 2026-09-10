@@ -238,7 +238,7 @@ button { font: inherit; }
 .principle-card p { margin: 0; color: #626864; font-size: 12px; line-height: 1.55; }
 
 .contact { position: relative; min-height: 610px; display: flex; align-items: center; background: #090a0c; isolation: isolate; }
-.contact-backdrop { position: absolute; inset: 0; z-index: -1; opacity: .32; background-image: linear-gradient(90deg, rgba(9,10,12,.95) 0%, rgba(9,10,12,.82) 40%, rgba(9,10,12,.34) 100%), url('/manus-storage/gardenas-hero_a1854cd5.jpg'); background-size: cover; background-position: center right; }
+.contact-backdrop { position: absolute; inset: 0; z-index: -1; opacity: .32; background-image: linear-gradient(90deg, rgba(9,10,12,.95) 0%, rgba(9,10,12,.82) 40%, rgba(9,10,12,.34) 100%), url("/images/gardenas-hero.jpg"); background-size: cover; background-position: center right; }
 .contact-inner { display: grid; grid-template-columns: .88fr .72fr 1.2fr; gap: 5%; align-items: center; padding-top: 90px; padding-bottom: 90px; }
 .contact-copy h2 { max-width: 620px; margin: 22px 0 0; font-family: 'Space Grotesk', sans-serif; color: #f5f2e9; font-size: clamp(45px, 6vw, 83px); font-weight: 500; line-height: .94; letter-spacing: -.08em; }
 .contact-copy p { max-width: 430px; margin: 26px 0 32px; color: #b4bab8; font-size: 15px; line-height: 1.7; }
