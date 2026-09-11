@@ -3,6 +3,7 @@ import {
   ArrowUpRight,
   ChevronDown,
   Clock3,
+  Facebook,
   Globe2,
   Handshake,
   Instagram,
@@ -49,7 +50,7 @@ const services = [
     icon: ShieldCheck,
   },
   {
-    title: "Representações & agenciamento",
+    title: "Representações e agenciamento",
     description: "Gerenciamento comercial conectando embarcadores aos grandes operadores.",
     icon: Handshake,
   },
@@ -206,7 +207,6 @@ export default function Home() {
             <div className="operations-visual">
               <img src="/images/gardenas-operations.jpg" alt="Terminal logístico iluminado ao anoitecer" />
               <div className="visual-tag"><span className="pulse-dot" /> Operação em movimento</div>
-              <div className="visual-corner">G'S / 24</div>
             </div>
             <div className="operations-copy">
               <span className="section-index"><span /></span>
@@ -272,7 +272,7 @@ export default function Home() {
           <div className="container">
             <div className="industries-top">
               <SectionHeading eyebrow="Presença estratégica" title="Onde cada minuto conta." description="Conhecimento operacional para setores que exigem precisão absoluta, discrição e continuidade." />
-              <div className="industry-aside"><span>Atuação</span><strong>Brasil inteiro</strong><Globe2 size={22} /></div>
+              <div className="industry-aside"><span>Atuação</span><strong>Todo o Brasil</strong><Globe2 size={22} /></div>
             </div>
             <div className="industry-list">
               {industries.map((industry) => (
@@ -335,7 +335,7 @@ export default function Home() {
               <div className="contact-block"><span>E-mail</span><a href="mailto:comercial@gardenaslog.com.br">comercial@gardenaslog.com.br <ArrowUpRight size={15} /></a></div>
               <div className="contact-block"><span>Fone fixo</span><a href="tel:+551939270571">(19) 3927-0571 <Phone size={15} /></a></div>
               <div className="contact-block"><span>WhatsApp</span><a href="https://wa.me/5519996137296" target="_blank" rel="noreferrer">(19) 9.9613-7296 <MessageCircle size={15} /></a></div>
-              <div className="social-block"><span>Siga nas redes sociais</span><div><a href="#contato" aria-label="Instagram"><Instagram size={18} /></a><a href="#contato" aria-label="LinkedIn"><Linkedin size={18} /></a><a href="#contato" aria-label="WhatsApp"><MessageCircle size={18} /></a></div></div>
+              <div className="social-block"><span>Siga nas redes sociais</span><div><a href="#contato" aria-label="Instagram"><Instagram size={18} /></a><a href="#contato" aria-label="LinkedIn"><Linkedin size={18} /></a><a href="https://www.facebook.com/gardenaslog" target="_blank" rel="noreferrer" aria-label="Facebook"><Facebook size={18} /></a></div></div>
             </div>
             <form className="quote-form" onSubmit={handleQuoteSubmit}>
               <div className="quote-form-heading"><span className="eyebrow">Cotação rápida</span><h3>Conte o que precisa mover.</h3><p>Preencha os dados e nossa equipe comercial continua a conversa pelo WhatsApp.</p></div>
