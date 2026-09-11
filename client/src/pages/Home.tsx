@@ -331,12 +331,29 @@ export default function Home() {
               <a className="button button--gold" href="mailto:comercial@gardenaslog.com.br">Entrar em contato <ArrowUpRight size={18} /></a>
             </div>
             <div className="contact-details">
-              <div className="contact-block"><span>Website</span><a href="https://www.gardenaslog.com.br" target="_blank" rel="noreferrer">gardenaslog.com.br <ArrowUpRight size={15} /></a></div>
-              <div className="contact-block"><span>E-mail</span><a href="mailto:comercial@gardenaslog.com.br">comercial@gardenaslog.com.br <ArrowUpRight size={15} /></a></div>
-              <div className="contact-block"><span>Fone fixo</span><a href="tel:+551939270571">(19) 3927-0571 <Phone size={15} /></a></div>
-              <div className="contact-block"><span>WhatsApp</span><a href="https://wa.me/5519996137296" target="_blank" rel="noreferrer">(19) 9.9613-7296 <MessageCircle size={15} /></a></div>
-              <div className="social-block"><span>Siga nas redes sociais</span><div><a href="#contato" aria-label="Instagram"><Instagram size={18} /></a><a href="#contato" aria-label="LinkedIn"><Linkedin size={18} /></a><a href="https://www.facebook.com/gardenaslog" target="_blank" rel="noreferrer" aria-label="Facebook"><Facebook size={18} /></a></div></div>
-            </div>
+
+  <div className="contact-block">
+    <span>Endereço</span>
+    <a
+      href="https://maps.google.com/?q=Rua+Manaus,+1080,+Chácara+Esperia,+Piracicaba+SP,+13403-141"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Rua Manaus, 1080 - Chácara Esperia - CEP 13.403-141 - Piracicaba/SP <MapPin size={15} />
+    </a>
+  </div>
+
+  <div className="contact-block"><span>Website</span><a href="https://www.gardenaslog.com.br" target="_blank" rel="noreferrer">gardenaslog.com.br <ArrowUpRight size={15} /></a></div>
+
+  <div className="contact-block"><span>E-mail</span><a href="mailto:comercial@gardenaslog.com.br">comercial@gardenaslog.com.br <ArrowUpRight size={15} /></a></div>
+
+  <div className="contact-block"><span>Telefone</span><a href="tel:+551939270571">(19) 3927-0571 <Phone size={15} /></a></div>
+
+  <div className="contact-block"><span>WhatsApp</span><a href="https://wa.me/5519996137296" target="_blank" rel="noreferrer">(19) 9.9613-7296 <MessageCircle size={15} /></a></div>
+
+  <div className="social-block"><span>Siga nas redes sociais</span><div><a href="https://www.instagram.com/gardenaslog" target="_blank" rel="noreferrer" aria-label="Instagram"><Instagram size={18} /></a><a href="https://www.linkedin.com/company/gardenaslog" target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin size={18} /></a><a href="https://www.facebook.com/gardenaslog" target="_blank" rel="noreferrer" aria-label="Facebook"><Facebook size={18} /></a></div></div>
+
+</div>
             <form className="quote-form" onSubmit={handleQuoteSubmit}>
               <div className="quote-form-heading"><span className="eyebrow">Cotação rápida</span><h3>Conte o que precisa mover.</h3><p>Preencha os dados e nossa equipe comercial continua a conversa pelo WhatsApp.</p></div>
               <div className="quote-fields">
