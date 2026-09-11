@@ -35,7 +35,7 @@ const services = [
     icon: Zap,
   },
   {
-    title: "First mile & line haul",
+    title: "First mile e line haul",
     description: "Operações para e-commerce, marketplaces e transferências entre CDs.",
     icon: PackageCheck,
   },
