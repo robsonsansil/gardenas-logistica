@@ -97,7 +97,30 @@ button { font: inherit; }
 .hero-backdrop { position: absolute; inset: 0; z-index: -2; background-image: linear-gradient(90deg, rgba(6,8,10,.98) 2%, rgba(6,8,10,.84) 34%, rgba(6,8,10,.18) 74%, rgba(6,8,10,.42) 100%), linear-gradient(0deg, rgba(6,8,10,.55), transparent 48%), url('/images/gardenas-hero.jpg'); background-size: cover; background-position: center; }
 .hero-grid { position: absolute; inset: 0; z-index: -1; opacity: .22; background-image: linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px); background-size: 92px 92px; mask-image: linear-gradient(90deg, black, transparent 70%); }
 .hero-content { padding-top: 170px; padding-bottom: 118px; }
-.hero-kicker, .eyebrow { color: #f3b914; font-family: 'DM Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: .19em; }
+.hero-kicker {
+  color: #f3b914;
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .19em;
+}
+
+.eyebrow {
+  color: #17191A;
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: .19em;
+}
+.section-dark .eyebrow,
+.section-ink .eyebrow,
+.contact .eyebrow {
+  color: #f3b914;
+}
+
+.section-cream .eyebrow {
+  color: #17191A;
+}
 .hero-kicker { display: flex; align-items: center; gap: 11px; margin-bottom: 25px; }
 .pulse-dot { width: 7px; height: 7px; border-radius: 50%; display: inline-block; background: #f3b914; box-shadow: 0 0 0 5px rgba(243,185,20,.12); }
 .hero h1 { max-width: 780px; margin: 0; color: #f9f7f0; font-family: 'Space Grotesk', sans-serif; font-size: clamp(54px, 7.1vw, 102px); line-height: .92; letter-spacing: -.075em; font-weight: 600; }
@@ -146,7 +169,33 @@ button { font: inherit; }
 .service-card { position: relative; min-height: 278px; padding: 26px 26px 30px; border-right: 1px solid rgba(255,255,255,.15); border-bottom: 1px solid rgba(255,255,255,.15); background: #101316; transition: background .25s ease, transform .25s ease; }
 .service-card:hover { z-index: 1; background: #171c20; transform: translateY(-4px); }
 .service-top { display: flex; align-items: center; justify-content: space-between; color: #f3b914; }
-.service-top span, .fleet-count, .industry-number, .timeline-year, .history-note span, .contact-block span, .social-block > span { color: #f3b914; font-family: 'DM Mono', monospace; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
+.service-top span,
+.fleet-count,
+.industry-number,
+.contact-block span,
+.social-block > span {
+  color: #f3b914;
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.timeline-year {
+  color: #4A4D4C;
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.history-note span {
+  color: #17191A;
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
 .service-card h3 { margin: 52px 0 13px; max-width: 220px; color: #f5f2e9; font-family: 'Space Grotesk', sans-serif; font-size: 23px; line-height: 1.02; font-weight: 500; letter-spacing: -.035em; }
 .service-card p { max-width: 255px; color: #9ea4a3; font-size: 13px; line-height: 1.55; }
 .service-card > a { position: absolute; bottom: 26px; right: 26px; display: grid; place-items: center; width: 35px; height: 35px; border: 1px solid rgba(243,185,20,.4); color: #f3b914; transition: background .2s ease, color .2s ease; }
