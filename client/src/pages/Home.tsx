@@ -333,15 +333,22 @@ export default function Home() {
             <div className="contact-details">
 
   <div className="contact-block">
-    <span>Endereço</span>
-    <a
-      href="https://maps.google.com/?q=Rua+Manaus,+1080,+Chácara+Esperia,+Piracicaba+SP,+13403-141"
-      target="_blank"
-      rel="noreferrer"
-    >
-      Rua Manaus, 1080 - Chácara Esperia - CEP 13.403-141 - Piracicaba/SP <MapPin size={15} />
-    </a>
+  <span>Endereço</span>
+
+  <div
+    style={{
+      display: "flex",
+      alignItems: "center",
+      gap: "7px",
+      color: "#f5f2e9",
+      fontFamily: "'DM Mono', monospace",
+      fontSize: "11px",
+    }}
+  >
+    Rua Manaus, 1080 - Chácara Esperia - CEP 13.403-141 - Piracicaba/SP
+    <MapPin size={15} />
   </div>
+</div>
 
   <div className="contact-block"><span>Website</span><a href="https://www.gardenaslog.com.br" target="_blank" rel="noreferrer">gardenaslog.com.br <ArrowUpRight size={15} /></a></div>
 
